@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{3045fa9c-0a5f-41fb-8387-026778243206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility%28NoEdit%29">
+      <UniqueIdentifier>{28fa2e18-ce7d-4355-9e39-c72264498d45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Backstory.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Instructions.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Win.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Lose.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoPlayer.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="OnePlayer.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="MATH.cpp">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pickup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Credits.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Win.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Backstory.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Lose.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Instructions.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoPlayer.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="OnePlayer.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="WAVE.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="MYCLIENT.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="MATH.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Utility%28NoEdit%29</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Credits.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Camp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="camp.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
